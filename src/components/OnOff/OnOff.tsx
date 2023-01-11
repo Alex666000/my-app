@@ -3,11 +3,12 @@ import React, {useState} from "react";
 type PropsType = {
     // on: boolean
 }
-// const [on, setOn] = useState(true)
-
 
 export const OnOff = (props: PropsType) => {
-    let on = false
+    console.log("OnOff rendered")
+
+    let [on, setOn] = useState(false)
+    // const on = false
 
     // styles
     const onStyle = {
@@ -38,13 +39,15 @@ export const OnOff = (props: PropsType) => {
     return (
         <div>
             <div onClick={() => {
-                debugger
-                on = true
-            }} style={onStyle}>On
+                setOn(true)
+            }}
+                 style={onStyle}>On
             </div>
+
             <div onClick={() => {
-                on = false
-            }} style={offStyle}>Off
+                setOn(false)
+            }}
+                 style={offStyle}>Off
             </div>
             <div style={indicatorStyle}></div>
         </div>
