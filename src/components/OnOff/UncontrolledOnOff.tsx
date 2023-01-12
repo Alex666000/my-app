@@ -2,6 +2,7 @@ import React, {useState} from "react";
 
 type PropsType = {
     // on: boolean
+    onChange: (on: boolean) => void
 }
 
 export const UncontrolledOnOff = (props: PropsType) => {
@@ -10,7 +11,7 @@ export const UncontrolledOnOff = (props: PropsType) => {
     let [on, setOn] = useState(false)
     // const on = false
 
-    // styles
+    // styles:
     const onStyle = {
         width: "30px",
         height: "20px",
@@ -39,13 +40,18 @@ export const UncontrolledOnOff = (props: PropsType) => {
     return (
         <div>
             <div onClick={() => {
+                //  изменю свой локальный стейт и вызову колбек со значением своим локальным
+                //  и это локальное значение придет в родителя
+                //  по-прежнему ты меня не контролируешь - я вас уведомляю, что во мне что-то меняется
                 setOn(true)
+                props.onChange(true)
             }}
                  style={onStyle}>On
             </div>
 
             <div onClick={() => {
                 setOn(false)
+                props.onChange(false)
             }}
                  style={offStyle}>Off
             </div>

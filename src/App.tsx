@@ -4,6 +4,7 @@ import {UnControlledAccordion} from "./components/Accordion/UnControlledAccordio
 import {Rating} from "./components/Rating/Rating";
 import {UnControlledRating} from "./components/Rating/UnControlledRating";
 import {Accordion} from "./components/Accordion/Accordion";
+import {UncontrolledOnOff} from "./components/OnOff/UncontrolledOnOff";
 
 const App = (props: any) => {
     console.log("App rendered")
@@ -17,10 +18,9 @@ const App = (props: any) => {
         <div className={"App"}>
 
             {/*колбек в контролируемой компоненте*/}
-            
-            {/*сократили надпись колбека setSwitchOn*/}
             <OnOff on={switchOn} onChange={setSwitchOn}/>
 
+            <UncontrolledOnOff onChange={setSwitchOn}/> {switchOn.toString()}
 
             {/*<UnControlledAccordion title={"Menu"}/>*/}
             {/*<UnControlledAccordion title={"Users"}/>*/}
