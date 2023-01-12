@@ -19,6 +19,7 @@ export const UncontrolledOnOff = (props: PropsType) => {
         display: "inline-block",
         backgroundColor: on ? "green" : "white",
     }
+    
     const offStyle = {
         width: "30px",
         height: "20px",
@@ -27,6 +28,7 @@ export const UncontrolledOnOff = (props: PropsType) => {
         marginLeft: "3px",
         backgroundColor: on ? "white" : "red",
     }
+
     const indicatorStyle = {
         width: "10px",
         height: "10px",
@@ -37,22 +39,23 @@ export const UncontrolledOnOff = (props: PropsType) => {
         backgroundColor: on ? "green" : "red",
     }
 
+    const onClicked = () => {
+        setOn(true)
+        props.onChange(true)
+    }
+
+    const ofClicked = () => {
+        setOn(false)
+        props.onChange(false)
+    }
+
     return (
         <div>
-            <div onClick={() => {
-                //  изменю свой локальный стейт и вызову колбек со значением своим локальным
-                //  и это локальное значение придет в родителя
-                //  по-прежнему ты меня не контролируешь - я вас уведомляю, что во мне что-то меняется
-                setOn(true)
-                props.onChange(true)
-            }}
+            <div onClick={onClicked}
                  style={onStyle}>On
             </div>
 
-            <div onClick={() => {
-                setOn(false)
-                props.onChange(false)
-            }}
+            <div onClick={ofClicked}
                  style={offStyle}>Off
             </div>
             <div style={indicatorStyle}></div>
