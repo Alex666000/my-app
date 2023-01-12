@@ -11,8 +11,8 @@ const App = (props: any) => {
         <div className={"App"}>
             {/*<OnOff/>*/}
 
-            {/*<UnControlledAccordion title={"Menu"}/>*/}
-            {/*<UnControlledAccordion title={"Users"}/>*/}
+            <UnControlledAccordion title={"Menu"}/>
+            <UnControlledAccordion title={"Users"}/>
 
             {/* <Accordion title={"Menu"} collapsed={true}/>
             <Accordion title={"Users"} collapsed={false}/>
@@ -27,11 +27,11 @@ const App = (props: any) => {
             {/*<Rating value={4}/>*/}
             {/*<Rating value={5}/>*/}
 
-            <UnControlledRating/>
-            <UnControlledRating/>
-            <UnControlledRating/>
-            <UnControlledRating/>
-            <UnControlledRating/>
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
         </div>
     );
 }

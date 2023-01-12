@@ -13,11 +13,10 @@ export function UnControlledAccordion(props: AccordionPropsType) {
 
     return (
         <div>
-            <AccordionTitle title={props.title}/>
-            <button onClick={() => {
+            {/*передаем стрелочную функцию внутрь AccordionTitle = колбек*/}
+            <AccordionTitle title={props.title} onClick={() => {
                 setCollapsed(!collapsed)
-            }}>TOGGLE
-            </button>
+            }}/>
             {!collapsed && <AccordionBody/>}
         </div>
     )

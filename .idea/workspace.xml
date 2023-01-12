@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="5 - условный рендеринг c OnOff через пропсв и useState()">
-      <change afterPath="$PROJECT_DIR$/src/components/Accordion/UnControlledAccordion.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" afterDir="false" />
+    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="7 - подсветка звездочек">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/UnControlledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/UnControlledAccordion.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,8 @@
       <updated>1673370873112</updated>
       <workItem from="1673370875936" duration="6604000" />
       <workItem from="1673439570765" duration="5928000" />
-      <workItem from="1673450608181" duration="1800000" />
+      <workItem from="1673450608181" duration="2670000" />
+      <workItem from="1673540492891" duration="1566000" />
     </task>
     <task id="LOCAL-00001" summary="5 - условный рендеринг">
       <created>1673379046744</created>
@@ -100,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673445125502</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7 - подсветка звездочек">
+      <created>1673454284760</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1673454284760</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -120,7 +126,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5 - условный рендеринг" />
     <MESSAGE value="5 - условный рендеринг c OnOff через пропсв и useState()" />
-    <option name="LAST_COMMIT_MESSAGE" value="5 - условный рендеринг c OnOff через пропсв и useState()" />
+    <MESSAGE value="7 - подсветка звездочек" />
+    <option name="LAST_COMMIT_MESSAGE" value="7 - подсветка звездочек" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
