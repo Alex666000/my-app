@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 передаем стрелочную функцию внутрь AccordionTitle = колбек">
+    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 --- от дедушки к родителю к детю в самы низ прокинули колбек">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,7 +76,7 @@
       <workItem from="1673370875936" duration="6604000" />
       <workItem from="1673439570765" duration="5928000" />
       <workItem from="1673450608181" duration="2670000" />
-      <workItem from="1673540492891" duration="3698000" />
+      <workItem from="1673540492891" duration="4690000" />
     </task>
     <task id="LOCAL-00001" summary="5 - условный рендеринг">
       <created>1673379046744</created>
@@ -119,7 +120,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673542223112</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="8 --- колбек     // ПО КЛИКУ ЗНАЧЕНИЕ УЙДЕТ К РОДИТЕЛЮ В АРР">
+      <created>1673544241901</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673544241901</updated>
+    </task>
+    <task id="LOCAL-00008" summary="8 --- от дедушки к родителю к детю в самы низ прокинули колбек">
+      <created>1673544368323</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673544368323</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +157,9 @@
     <MESSAGE value="7 - подсветка звездочек" />
     <MESSAGE value="8 передали колбек внутрь Star" />
     <MESSAGE value="8 передаем стрелочную функцию внутрь AccordionTitle = колбек" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 передаем стрелочную функцию внутрь AccordionTitle = колбек" />
+    <MESSAGE value="8 --- колбек     // ПО КЛИКУ ЗНАЧЕНИЕ УЙДЕТ К РОДИТЕЛЮ В АРР" />
+    <MESSAGE value="8 --- от дедушки к родителю к детю в самы низ прокинули колбек" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 --- от дедушки к родителю к детю в самы низ прокинули колбек" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
