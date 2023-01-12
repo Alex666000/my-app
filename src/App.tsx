@@ -17,9 +17,9 @@ const App = (props: any) => {
         <div className={"App"}>
 
             {/*колбек в контролируемой компоненте*/}
-            <OnOff on={switchOn} onChange={(on) => {
-                setSwitchOn(on)
-            }}/>
+            
+            {/*сократили надпись колбека setSwitchOn*/}
+            <OnOff on={switchOn} onChange={setSwitchOn}/>
 
 
             {/*<UnControlledAccordion title={"Menu"}/>*/}

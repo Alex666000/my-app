@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 --- контролируемый Accordion с колбеком прокинули....">
-      <change afterPath="$PROJECT_DIR$/src/components/OnOff/UncontrolledOnOff.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 --- контролируемый OnOff">
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OnOff/OnOff.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +79,7 @@
       <workItem from="1673370875936" duration="6604000" />
       <workItem from="1673439570765" duration="5928000" />
       <workItem from="1673450608181" duration="2670000" />
-      <workItem from="1673540492891" duration="7592000" />
+      <workItem from="1673540492891" duration="7966000" />
     </task>
     <task id="LOCAL-00001" summary="5 - условный рендеринг">
       <created>1673379046744</created>
@@ -154,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673546505394</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="8 --- контролируемый OnOff">
+      <created>1673548395379</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673548395379</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,16 +185,47 @@
     <MESSAGE value="8 --- от дедушки к родителю к детю в самы низ прокинули колбек" />
     <MESSAGE value="8 --- второй способ передачи колбека в UnControlledRating" />
     <MESSAGE value="8 --- контролируемый Accordion с колбеком прокинули...." />
-    <option name="LAST_COMMIT_MESSAGE" value="8 --- контролируемый Accordion с колбеком прокинули...." />
+    <MESSAGE value="8 --- контролируемый OnOff" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 --- контролируемый OnOff" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/App.tsx</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/components/OnOff/OnOff.tsx</url>
+          <line>4</line>
           <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="3" />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/OnOff/OnOff.tsx</url>
+          <line>8</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/OnOff/OnOff.tsx</url>
+          <line>43</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/OnOff/OnOff.tsx</url>
+          <line>50</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.tsx</url>
+          <line>12</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/App.tsx</url>
+          <line>19</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
