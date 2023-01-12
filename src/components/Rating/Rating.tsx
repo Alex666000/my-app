@@ -30,7 +30,7 @@ type StarPropsType = {
 
 function Star(props: StarPropsType) {
     console.log("Star rendered")
-    // ПО КЛИКУ ЗНАЧЕНИЕ УЙДЕТ К РОДИТЕЛЮ В АРР
+    // от дедушки к родителю к детю в самы низ прокинули колбек
     return <span onClick={() => {
         props.onClick(props.value)
     }}>
