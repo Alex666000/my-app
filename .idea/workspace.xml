@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 --- от дедушки к родителю к детю в самы низ прокинули колбек">
+    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 --- второй способ передачи колбека в UnControlledRating">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1673370875936" duration="6604000" />
       <workItem from="1673439570765" duration="5928000" />
       <workItem from="1673450608181" duration="2670000" />
-      <workItem from="1673540492891" duration="4690000" />
+      <workItem from="1673540492891" duration="5939000" />
     </task>
     <task id="LOCAL-00001" summary="5 - условный рендеринг">
       <created>1673379046744</created>
@@ -134,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673544368323</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="8 --- второй способ передачи колбека в UnControlledRating">
+      <created>1673545240389</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673545240389</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,15 +165,17 @@
     <MESSAGE value="8 передаем стрелочную функцию внутрь AccordionTitle = колбек" />
     <MESSAGE value="8 --- колбек     // ПО КЛИКУ ЗНАЧЕНИЕ УЙДЕТ К РОДИТЕЛЮ В АРР" />
     <MESSAGE value="8 --- от дедушки к родителю к детю в самы низ прокинули колбек" />
-    <option name="LAST_COMMIT_MESSAGE" value="8 --- от дедушки к родителю к детю в самы низ прокинули колбек" />
+    <MESSAGE value="8 --- второй способ передачи колбека в UnControlledRating" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 --- второй способ передачи колбека в UnControlledRating" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/src/components/Accordion/Accordion.tsx</url>
-          <line>8</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/App.tsx</url>
+          <line>20</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

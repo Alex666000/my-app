@@ -3,11 +3,13 @@ import {OnOff} from "./components/OnOff/OnOff";
 import {UnControlledAccordion} from "./components/Accordion/UnControlledAccordion";
 import {Rating} from "./components/Rating/Rating";
 import {UnControlledRating} from "./components/Rating/UnControlledRating";
+import {Accordion} from "./components/Accordion/Accordion";
 
 const App = (props: any) => {
     console.log("App rendered")
 
     const [ratingValue, setRatingValue] = useState(0)
+    const [accordionCollapsed, setAccordionCollapsed] = useState(false)
 
     return (
         <div className={"App"}>
@@ -16,21 +18,20 @@ const App = (props: any) => {
             {/*<UnControlledAccordion title={"Menu"}/>*/}
             {/*<UnControlledAccordion title={"Users"}/>*/}
 
-            {/* <Accordion title={"Menu"} collapsed={true}/>
-            <Accordion title={"Users"} collapsed={false}/>
+            <Accordion title={"Menu"}
+                       collapsed={accordionCollapsed}
+                       onClick={setAccordionCollapsed}/>
             <div>--------------------</div>
 
-            чтобы горело от 1 до 5 звезд
-            */}
 
             {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
 
 
-            <UnControlledRating onClick={se}/>
-            <UnControlledRating/>
-            <UnControlledRating/>
-            <UnControlledRating/>
-            <UnControlledRating/>
+            {/*<UnControlledRating />*/}
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
+            {/*<UnControlledRating/>*/}
         </div>
     );
 }
