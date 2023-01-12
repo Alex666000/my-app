@@ -10,18 +10,25 @@ const App = (props: any) => {
 
     const [ratingValue, setRatingValue] = useState(0)
     const [accordionCollapsed, setAccordionCollapsed] = useState(false)
+    const [switchOn, setSwitchOn] = useState(false)
+
 
     return (
         <div className={"App"}>
-            {/*<OnOff/>*/}
+
+            {/*колбек в контролируемой компоненте*/}
+            <OnOff on={switchOn} onChange={(on) => {
+                setSwitchOn(on)
+            }}/>
+
 
             {/*<UnControlledAccordion title={"Menu"}/>*/}
             {/*<UnControlledAccordion title={"Users"}/>*/}
 
-            <Accordion title={"Menu"}
-                       collapsed={accordionCollapsed}
-                       onClick={setAccordionCollapsed}/>
-            <div>--------------------</div>
+            {/*<Accordion title={"Menu"}*/}
+            {/*           collapsed={accordionCollapsed}*/}
+            {/*           onClick={setAccordionCollapsed}/>*/}
+            {/*<div>--------------------</div>*/}
 
 
             {/*<Rating value={ratingValue} onClick={setRatingValue}/>*/}
