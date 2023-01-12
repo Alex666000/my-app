@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="7 - подсветка звездочек">
+    <list default="true" id="e85a29d4-030e-4502-a8ae-5aa8942ba5eb" name="Changes" comment="8 передаем стрелочную функцию внутрь AccordionTitle = колбек">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/UnControlledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/UnControlledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/UnControlledRating.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +75,7 @@
       <workItem from="1673370875936" duration="6604000" />
       <workItem from="1673439570765" duration="5928000" />
       <workItem from="1673450608181" duration="2670000" />
-      <workItem from="1673540492891" duration="1566000" />
+      <workItem from="1673540492891" duration="3698000" />
     </task>
     <task id="LOCAL-00001" summary="5 - условный рендеринг">
       <created>1673379046744</created>
@@ -106,7 +105,21 @@
       <option name="project" value="LOCAL" />
       <updated>1673454284760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="8 передали колбек внутрь Star">
+      <created>1673542083172</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1673542083172</updated>
+    </task>
+    <task id="LOCAL-00006" summary="8 передаем стрелочную функцию внутрь AccordionTitle = колбек">
+      <created>1673542223112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1673542223112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -127,7 +140,9 @@
     <MESSAGE value="5 - условный рендеринг" />
     <MESSAGE value="5 - условный рендеринг c OnOff через пропсв и useState()" />
     <MESSAGE value="7 - подсветка звездочек" />
-    <option name="LAST_COMMIT_MESSAGE" value="7 - подсветка звездочек" />
+    <MESSAGE value="8 передали колбек внутрь Star" />
+    <MESSAGE value="8 передаем стрелочную функцию внутрь AccordionTitle = колбек" />
+    <option name="LAST_COMMIT_MESSAGE" value="8 передаем стрелочную функцию внутрь AccordionTitle = колбек" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

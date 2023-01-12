@@ -1,18 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import {OnOff} from "./components/OnOff/OnOff";
 import {UnControlledAccordion} from "./components/Accordion/UnControlledAccordion";
-import {Rating} from "./components/Rating/Rating";
+import {Rating, RatingValueType} from "./components/Rating/Rating";
 import {UnControlledRating} from "./components/Rating/UnControlledRating";
 
 const App = (props: any) => {
     console.log("App rendered")
 
+    const [ratingValue, setRatingValue] = useState<RatingValueType>(0)
+
     return (
         <div className={"App"}>
             {/*<OnOff/>*/}
 
-            <UnControlledAccordion title={"Menu"}/>
-            <UnControlledAccordion title={"Users"}/>
+            {/*<UnControlledAccordion title={"Menu"}/>*/}
+            {/*<UnControlledAccordion title={"Users"}/>*/}
 
             {/* <Accordion title={"Menu"} collapsed={true}/>
             <Accordion title={"Users"} collapsed={false}/>
@@ -21,11 +23,8 @@ const App = (props: any) => {
             чтобы горело от 1 до 5 звезд
             */}
 
-            {/*<Rating value={1}/>*/}`
-            {/*<Rating value={2}/>*/}
-            {/*<Rating value={3}/>*/}
-            {/*<Rating value={4}/>*/}
-            {/*<Rating value={5}/>*/}
+            <Rating value={ratingValue} onClick={setRatingValue}/>
+
 
             {/*<UnControlledRating/>*/}
             {/*<UnControlledRating/>*/}
